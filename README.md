@@ -15,8 +15,10 @@ If you are developing a production application, we recommend using TypeScript an
 1. Download NodeJS.
 2. Download .zip file and extract.
 3. Open the Command Prompt, using cd command to change to the folder containing source code files.
-4. Using command 'npm install' to load the needed libraries, which will be contained in 'node_modules'
-5. Using command 'npm run dev' to run the system, visit the website at http://localhost:5173/
+4. Create an account and get the API key from Openweathermap (https://openweathermap.org/), then apply the key in weatherServices.js
+5. Create a project in your Firebase console, change the needed values in firebaseConfig.js
+6. Using command 'npm install' to load the needed libraries, which will be contained in 'node_modules'
+7. Using command 'npm run dev' to run the system, visit the website at http://localhost:5173/
 
 # NOTE
 The system is currently having trouble with retrieve location while running on Google Chrome, but this function still 
